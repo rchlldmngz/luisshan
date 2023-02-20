@@ -404,14 +404,14 @@ section .header {
 }
 
 .hero {
-    min-height: 700px;
+    min-height: 200px;
     background: url("../img/banner.png") center center;
     -webkit-background-size: contain;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    background-position: center;
+    background-position: cover;
 }
 /*floating Arrow top*/
 .hero .down-arrow a {
@@ -431,7 +431,7 @@ section .header {
 }
 
 .hero .hero-content {
-    padding-top: 50%
+    padding-top: 10%
 }
 
 .hero .hero-content img {
