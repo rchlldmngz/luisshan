@@ -185,17 +185,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Carlo and Lovely's Wedding",
+            title: "Luis and Shan's Wedding",
 
             // Event start date
-            start: new Date('Dec 18, 2021 13:30'),
+            start: new Date('March 18, 2023 16:00'),
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Dec 18, 2021 21:00'),
+            end: new Date('March 18, 2023 21:00'),
 
             // Event Address
-            address: 'SANTUARIO DE SAN JOSE PARISH, East Greenhills, Mandaluyong',
+            address: 'PASEO VERDE CONDOMINIUM, LAS PIÑAS CITY',
 
             // Event Description
             description: "We can't wait to see you on our big day."
@@ -226,7 +226,7 @@ $(document).ready(function () {
         
         // if attending, validate invite code
 
-        $.post('https://script.google.com/macros/s/AKfycbxX6z2_ycPtBrIv-XVg2UU7uwd2qLecJjcv7iiou9Y0BFuDkvTdlvn40p75qbOPbqOtBA/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbxn6dHnSFD9QFKHs19lKSUGJC_JcTjziJ4rju4AqmsEE9hKDjnERH2zf7oDKij2glYK/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {
