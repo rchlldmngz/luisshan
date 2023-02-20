@@ -493,7 +493,7 @@ header ul.primary-nav li {
 }
 /*header*/
 header ul.primary-nav li a {
-    color: #0A3C1D;
+    color: #FFFF;
     padding-right: 25px
 }
 
@@ -511,7 +511,7 @@ header ul.member-actions li {
 }
 /*rsvp in oval*/
 header ul.member-actions li a {
-    color: #0A3C1D
+    color: #FFFF
 }
 
 header ul.member-actions li a:hover {
