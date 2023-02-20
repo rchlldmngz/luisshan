@@ -435,8 +435,9 @@ section .header {
 }
 
 .hero .hero-content img {
-    width: 45%;
-    margin-bottom: 2%
+    width: 25%;
+    margin-bottom: 20%;
+    margin-top: 20%;
 }
 
 .navigation {
@@ -479,7 +480,7 @@ header .logo {
 }
 
 header .logo img {
-    height: 75px;
+    height: 50px;
 }
 
 header ul.primary-nav {
@@ -492,7 +493,7 @@ header ul.primary-nav li {
 }
 /*header*/
 header ul.primary-nav li a {
-    color: #ffff;
+    color: #0A3C1D;
     padding-right: 25px
 }
 
@@ -510,7 +511,7 @@ header ul.member-actions li {
 }
 /*rsvp in oval*/
 header ul.member-actions li a {
-    color: #ffff
+    color: #0A3C1D
 }
 
 header ul.member-actions li a:hover {

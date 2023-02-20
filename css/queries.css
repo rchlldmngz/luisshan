@@ -15,6 +15,11 @@
     .hero .hero-content {
         padding-top: 25%;
     }
+
+    .hero .hero-content img {
+        width: 35%;
+        margin-bottom: 20%;
+    }
 }
 
 /* Responsive nav kicks in */
@@ -26,6 +31,11 @@
 
     .hero .hero-content {
         padding-top: 25%;
+    }
+
+    .hero .hero-content img {
+        width: 35%;
+        margin-bottom: 20%;
     }
 
     .header-nav {
@@ -257,6 +267,11 @@
         padding-top: 30%;
     }
 
+    .hero .hero-content img {
+        width: 35%;
+        margin-bottom: 20%;
+    }
+
     #eng-pics .img-wrap i {
         font-size: 25px;
         position: absolute;
@@ -297,7 +312,8 @@
     }
     
     .hero .hero-content img {
-        width: 65%;
+        width: 35%;
+        margin-bottom: 20%;
     }
 
     .hero .btn {
@@ -358,6 +374,11 @@
 @media screen and (max-width: 320px) {
     .hero .hero-content {
         padding-top: 40%;
+    }
+
+    .hero .hero-content img {
+        width: 35%;
+        margin-bottom: 20%;
     }
 
     .rsvp {
