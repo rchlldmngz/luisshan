@@ -202,7 +202,7 @@
                 <h1>RSVP</h1>
                 <p></p>
                 <p>We would greatly appreciate it if you could RSVP on or before
-                    <strong>November 30, 2021</strong>.</p>
+                    <strong>February 25, 2023</strong>.</p>
                 <p>Please don’t forget to put your personal information which we will use for the contact tracing efforts of all our venues.</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
@@ -212,7 +212,7 @@
                             <strong>RSVP Attendance</strong><br>
                             <div class="form-check">
                                 <input class="fa form-check-input" type="radio" id="attend" name="attendance" value="Attending">
-                                <label class="form-check-label" for="radio-a">Fully Vacinated and Attending.</label>
+                                <label class="form-check-label" for="radio-a">Attending.</label>
                             </div>
                             <div class="form-check">
                                 <input class="fa form-check-input" type="radio" id="not_attend" name="attendance" value="Not Attending">
@@ -220,6 +220,7 @@
                             </div>
                             <br>
                         </div>
+                      </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
@@ -240,19 +241,34 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-phone"></i><input type="number" id="phone" name="phone"
-                                                                    placeholder="Mobile number" 
-                                >
+                                                                    placeholder="Mobile number">
                             </div>
                         </div>                        
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-bookmark"></i><input id="address" name="address"
-                                                                    placeholder="Complete Address" 
-                                >
-                            </div>
-                        </div>
                     </div>
-                   
+                    <div class="row" id="radio">
+                    <div class="col-md-12 col-sm-12">
+                        <p></p>
+                        <p>Due to limited parking space on the venue, we encourage guests to carpool instead of bringing own car.</p>
+                            <strong>Parking Reservation</strong><br>
+                            <div class="form-check">
+                                    <input class="fa form-check-input" type="radio" id="parking" name="parking" value="Own car">
+                                    <label class="form-check-label" for="radio-a">Will bring own car.</label>
+                            </div>
+                            <div class="form-check">
+                                    <input class="fa form-check-input" type="radio" id="carpool" name="parking" value="Carpool">
+                                    <label class="form-check-label" for="radio-c">Will carpool with another guest.</label>
+                            </div>
+                    </div> 
+                    </div>   
+                    <p></p>
+                    <div class="row" id="radio">
+                    <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                        <i class="fa fa-bookmark"></i><input id="plate_no" name="plate"
+                                                                            placeholder="Plate Number">
+                            </div>
+                    </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
