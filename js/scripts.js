@@ -1,41 +1,5 @@
 $(document).ready(function () {
 
-    
-    /***************** Background Audio ******************/
-
-    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);  
-    
-    var audio = document.createElement("AUDIO");
-    audio.volume = 0.2;
-    document.body.appendChild(audio);
-    audio.src = "./aud/bg_sound.mp3"
-    audio.loop
-
-    document.body.addEventListener("mousemove", function () {
-        // if (isChrome)
-        // {
-            audio.play();
-        // }
-    });
-
-    Audio.prototype.play = (function(play) {
-    return function () {
-      var audio = this,
-          args = arguments,
-          promise = play.apply(audio, args);
-      if (promise !== undefined) {
-        promise.catch(_ => {
-        });
-      }
-    };
-    })(Audio.prototype.play);
-
-    $('#welcome-modal').modal('show');
-
-    audio.addEventListener('ended', function() {
-        this.currentTime = 0;
-        this.play();
-    }, false);
     /***************** Waypoints ******************/
 
     $('.wp1').waypoint(function () {
@@ -133,7 +97,7 @@ $(document).ready(function () {
                     "padding": "10px 0px"
                 });
                 $('header .member-actions').css({
-                    "top": "10px",
+                    "top": "20px",
                 });
                 $('header .navicon').css({
                     "top": "30px",
@@ -145,7 +109,7 @@ $(document).ready(function () {
                     "padding": "10px 0px"
                 });
                 $('header .member-actions').css({
-                    "top": "10px",
+                    "top": "20px",
                 });
                 $('header .navicon').css({
                     "top": "30px",
@@ -221,17 +185,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Michael and Vera's Wedding",
+            title: "Carlo and Lovely's Wedding",
 
             // Event start date
-            start: new Date('October 13, 2022 14:30'),
+            start: new Date('Dec 18, 2021 13:30'),
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('October 13, 2022 21:00'),
+            end: new Date('Dec 18, 2021 21:00'),
 
             // Event Address
-            address: 'Old Thorns Hotel and Resort.',
+            address: 'SANTUARIO DE SAN JOSE PARISH, East Greenhills, Mandaluyong',
 
             // Event Description
             description: "We can't wait to see you on our big day."
@@ -262,7 +226,7 @@ $(document).ready(function () {
         
         // if attending, validate invite code
 
-        $.post('https://script.google.com/macros/s/AKfycbxPUvkHPfDfGSuIhaFVr_RpuzldLyhbvpuvmH9OY4y4txKMdyRgU4ZYHnLPDcylFvjarw/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbxX6z2_ycPtBrIv-XVg2UU7uwd2qLecJjcv7iiou9Y0BFuDkvTdlvn40p75qbOPbqOtBA/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {

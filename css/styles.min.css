@@ -1,61 +1,51 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(6ttps://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 p {
     font-size: 15px;
-    line-height: 25px;
-    color: #7F7F7F;
+    line-height: 29px;
+    color: black;
     padding-bottom: 12px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
-    font-size: 60px;
-    color: #0d4a30;
+    font-size: 40px;
+    color: #63748B;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 40px;
     font-weight: 300;
-    color: black;
-    font-family: 'Times New Roman', Times, serif
+    color: black
 }
 
 h3 {
-    color: #0d4a30;
+    color: #63748B;
     font-size: 18px;
     font-weight: 700;
+    text-transform: uppercase;
     letter-spacing: 2px;
-    line-height: 29px;
-    font-family: 'Aston Script', sans-serif;
+    line-height: 29px
 }
 
 h4 {
-    color: #0d4a30;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 0px;
-    line-height: 29px;
-    padding-top: 40px;
+    font-size: 18px
 }
 
 h5 {
-    font-size: 30px;
-    color: #0d4a30;
+    font-size: 18px;
+    color: #63748B;
     font-weight: bold;
     text-transform: uppercase;
-    font-weight: bold;
-    line-height: 35px;
-    font-family: 'Times New Roman', Times, serif
+    font-weight: bold
 }
 
 h6 {
-    color: #0d4a30;
-    font-size: 22px;
-    font-weight: 500;
+    color: #63748B;
+    font-size: 35px;
     letter-spacing: 0px;
-    line-height: 35px;
-    font-family: 'Aston Script', sans-serif;
+    line-height: 29px;
+    font-family: 'aerotis', sans-serif;
     padding-top: 40px;
                                                 
 }
@@ -79,7 +69,6 @@ h6 {
 /*bilog ng RSVP*/
 .btn-white {
     font-size: 13px;
-    font-family: time;
     border: solid 2px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
@@ -96,24 +85,24 @@ h6 {
 /*submit*/
 .btn-fill {
     color: #fff;
-    border: solid 2px #0d4a30;
+    border: solid 2px #63748B;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 40px;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #0d4a30
+    background-color: #63748B
 }
 
 .btn-fill:hover,
 .btn-fill:focus {
-    color: white;
-    background-color: #A1B1A0;
-    border-color: #A1B1A0
+    color: black;
+    background-color: #8ab7f7;
+    border-color: #8ab7f7
 }
 
 .btn-small {
-    padding: 2px 45px
+    padding: 10px 45px
 }
 
 .btn-large {
@@ -140,7 +129,7 @@ h6 {
 }
 /*floating arrow bottom*/
 a {
-    color: #ffff;
+    color: #63748B;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
@@ -160,7 +149,7 @@ body {
     font-weight: 300;
     color: black;
     -webkit-text-size-adjust: 100%;
-    background: #ffffff
+    background: white;
 
 }
 
@@ -339,7 +328,7 @@ section .header {
     top: 0;
     right: 15px;
     z-index: 999999;
-    padding: 7px 0px 0px 0;
+    padding: 15px 0px 0px 0;
     cursor: pointer
 }
 
@@ -385,7 +374,7 @@ section .header {
 
 .nav-toggle.active span:before,
 .nav-toggle.active span:after {
-    top: 10px
+    top: 0
 }
 
 .nav-toggle.active span:before {
@@ -415,18 +404,18 @@ section .header {
 }
 
 .hero {
-    min-height: 800px;
-    background: url("../img/banner1.png") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: contain;
+    min-height: 700px;
+    background: url("../img/banner.png") center center;
+    -webkit-background-size: contain;
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    background-position: top center;
+    background-position: center;
 }
 /*floating Arrow top*/
 .hero .down-arrow a {
-    color: #FFFF
+    color: #63748B
 }
 /*not in use*/
 .hero h1 {
@@ -442,7 +431,7 @@ section .header {
 }
 
 .hero .hero-content {
-    padding-top: 20%
+    padding-top: 50%
 }
 
 .hero .hero-content img {
@@ -460,13 +449,13 @@ section .header {
 .fixed {
     padding: 0px 0px;
     position: fixed;
-    background-color: #08503C;
+    background-color: #63748bf1;
     z-index: 999;
     width: 100%
 }
 /*inner box of header*/
 header {
-    padding: 5px 0px;
+    padding: 10px 0px;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
     position: relative;
     text-align: left;
@@ -490,7 +479,7 @@ header .logo {
 }
 
 header .logo img {
-    width: 250px;
+    height: 75px;
 }
 
 header ul.primary-nav {
@@ -504,13 +493,11 @@ header ul.primary-nav li {
 /*header*/
 header ul.primary-nav li a {
     color: #ffff;
-    padding-right: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    padding-right: 25px
 }
 
 header ul.primary-nav li a:hover {
-    color: white;
+    color: #ffff;
     font-weight: bold;
 }
 
@@ -537,8 +524,8 @@ header .header-nav {
 
 header .member-actions {
     position: absolute;
-    right: 10px;
-    top: 15px;
+    right: 0;
+    top: 20px;
     transition: all 300ms ease-in-out
 }
 
@@ -848,17 +835,10 @@ header .member-actions {
 }
 
 #swatches img {
-    width: 80%
+    width: 10%
 }
 
-#swatches2 img {
-    width: 25%
-}
-
-#wear img {
-    width: 100%;
-}
-
+#wear img,
 #gift img {
     width: 70%
 }
@@ -1009,8 +989,7 @@ header .member-actions {
 }
 
 .rsvp {
-    padding-bottom: 100px;
-    background-color: #bdc5b67f;
+    padding-bottom: 100px
 }
 
 .rsvp .rsvp-form .rsvp-btn {
@@ -1033,7 +1012,7 @@ header .member-actions {
 }
 /*RSVP Icons*/
 .rsvp .rsvp-form .form-input-group i {
-    color: #0d4a30;
+    color: #63748B;
     font-size: 14px
 }
 
@@ -1053,7 +1032,6 @@ header .member-actions {
 .rsvp .rsvp-form .form-input-group i.fa-tags,
 .rsvp .rsvp-form .form-input-group i.fa-bookmark,
 .rsvp .rsvp-form .form-input-group i.fa-phone,
-.rsvp .rsvp-form .form-input-group i.fa-cutlery,
 .rsvp .rsvp-form .form-input-group .fa-key {
     font-size: 14px;
     position: absolute;
@@ -1138,7 +1116,7 @@ ol {
 
 
 strong {
-      color: #0d4a30;
+      Color: #63748B
 }
 
 iframe {
@@ -1151,9 +1129,5 @@ iframe {
 }
 
 .form-check-label {
-    font-weight: 100;
-    font-family: 'Times New Roman', Times, serif;
-    color: #7F7F7F;
-    font-size: 15px;
-    line-height: 15px;
+    font-weight: 300;
 }

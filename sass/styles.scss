@@ -4,14 +4,13 @@
 p {
     font-size: 15px;
     line-height: 29px;
-    color: #7F7F7F;
+    color: black;
     padding-bottom: 12px;
-    font-family: 'Times New Roman', Times, serif
 }
 
 h1 {
     font-size: 60px;
-    color: #0d4a30;
+    color: #63748B;
 }
 
 h2 {
@@ -21,40 +20,32 @@ h2 {
 }
 
 h3 {
-    color: #0d4a30;
+    color: #63748B;
     font-size: 18px;
     font-weight: 700;
+    text-transform: uppercase;
     letter-spacing: 2px;
-    line-height: 29px;
-    font-family: 'Aston Script', sans-serif;
+    line-height: 29px
 }
 
 h4 {
-    color: #0d4a30;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 0px;
-    line-height: 29px;
-    padding-top: 40px;
+    font-size: 18px
 }
 
 h5 {
-    font-size: 30px;
-    color: #0d4a30;
+    font-size: 18px;
+    color: #63748B;
     font-weight: bold;
     text-transform: uppercase;
-    font-weight: bold;
-    line-height: 35px;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold
 }
 
 h6 {
-    color: #0d4a30;
-    font-size: 20px;
-    font-weight: 500;
+    color: #63748B;
+    font-size: 50px;
     letter-spacing: 0px;
-    line-height: 35px;
-    font-family: 'Aston Script', sans-serif;
+    line-height: 29px;
+    font-family: 'aerotis', sans-serif;
     padding-top: 40px;
                                                 
 }
@@ -78,7 +69,6 @@ h6 {
 /*bilog ng RSVP*/
 .btn-white {
     font-size: 13px;
-    font-family: time;
     border: solid 2px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
@@ -95,24 +85,24 @@ h6 {
 /*submit*/
 .btn-fill {
     color: #fff;
-    border: solid 2px #0d4a30;
+    border: solid 2px #63748B;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 40px;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #0d4a30
+    background-color: #63748B
 }
 
 .btn-fill:hover,
 .btn-fill:focus {
     color: black;
-    background-color: #A1B1A0;
-    border-color: #A1B1A0
+    background-color: #8ab7f7;
+    border-color: #8ab7f7
 }
 
 .btn-small {
-    padding: 2px 45px
+    padding: 10px 45px
 }
 
 .btn-large {
@@ -139,7 +129,7 @@ h6 {
 }
 /*floating arrow bottom*/
 a {
-    color: #ffff;
+    color: #63748B;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
@@ -159,7 +149,7 @@ body {
     font-weight: 300;
     color: black;
     -webkit-text-size-adjust: 100%;
-    background: #ffffff
+    background: white;
 
 }
 
@@ -338,7 +328,7 @@ section .header {
     top: 0;
     right: 15px;
     z-index: 999999;
-    padding: 7px 0px 0px 0;
+    padding: 15px 0px 0px 0;
     cursor: pointer
 }
 
@@ -366,7 +356,7 @@ section .header {
 }
 
 .nav-toggle span:after {
-    bottom: 20px
+    bottom: -10px
 }
 
 .nav-toggle span,
@@ -414,18 +404,18 @@ section .header {
 }
 
 .hero {
-    min-height: 550px;
-    background: url("../img/banner.png") no-repeat center center;
+    min-height: 700px;
+    background: url("../img/banner.png") center center;
     -webkit-background-size: contain;
-    -moz-background-size: contain;
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    background-position: top center;
+    background-position: center;
 }
 /*floating Arrow top*/
 .hero .down-arrow a {
-    color: #FFFF
+    color: #63748B
 }
 /*not in use*/
 .hero h1 {
@@ -441,7 +431,7 @@ section .header {
 }
 
 .hero .hero-content {
-    padding-top: 20%
+    padding-top: 50%
 }
 
 .hero .hero-content img {
@@ -459,7 +449,7 @@ section .header {
 .fixed {
     padding: 0px 0px;
     position: fixed;
-    background-color: #A1B1A0;
+    background-color: #63748bf1;
     z-index: 999;
     width: 100%
 }
@@ -489,7 +479,7 @@ header .logo {
 }
 
 header .logo img {
-    width: 250px;
+    height: 75px;
 }
 
 header ul.primary-nav {
@@ -503,13 +493,11 @@ header ul.primary-nav li {
 /*header*/
 header ul.primary-nav li a {
     color: #ffff;
-    padding-right: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    padding-right: 25px
 }
 
 header ul.primary-nav li a:hover {
-    color: black;
+    color: #ffff;
     font-weight: bold;
 }
 
@@ -536,8 +524,8 @@ header .header-nav {
 
 header .member-actions {
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 0;
+    top: 20px;
     transition: all 300ms ease-in-out
 }
 
@@ -847,17 +835,10 @@ header .member-actions {
 }
 
 #swatches img {
-    width: 80%
+    width: 10%
 }
 
-#swatches2 img {
-    width: 25%
-}
-
-#wear img {
-    width: 100%;
-}
-
+#wear img,
 #gift img {
     width: 70%
 }
@@ -1008,8 +989,7 @@ header .member-actions {
 }
 
 .rsvp {
-    padding-bottom: 100px;
-    background-color: #bdc5b67f;
+    padding-bottom: 100px
 }
 
 .rsvp .rsvp-form .rsvp-btn {
@@ -1032,7 +1012,7 @@ header .member-actions {
 }
 /*RSVP Icons*/
 .rsvp .rsvp-form .form-input-group i {
-    color: #0d4a30;
+    color: #63748B;
     font-size: 14px
 }
 
@@ -1136,7 +1116,7 @@ ol {
 
 
 strong {
-      color: #0d4a30;
+      Color: #63748B
 }
 
 iframe {
@@ -1150,6 +1130,4 @@ iframe {
 
 .form-check-label {
     font-weight: 300;
-    font-family: 'Times New Roman', Times, serif;
-    color: #7F7F7F;
 }
